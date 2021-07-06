@@ -47,32 +47,22 @@ print(f"The average change is {average_change}")
 
 # Greatest increase in profits
 
-def subtraction(x,y):  #function definifion for subtraction
-    sub=x-y
-    return sub
-
 most_profit = max(PL_change)
 
-print(most_profit)
+print(f"the gratest increase in profits {most_profit}")
 
-least_profit = min(PL_change)
 
-print(least_profit)
 
-greatest_decrease = subtraction(most_profit,least_profit)
-
-print(f"The greatest increase in profits is {greatest_decrease}")
 
 
 # Greatest decrease in profits
-num_x = most_profit
 
-num_y = least_profit
+least_profit = min(PL_change)
 
- 
-sum = num_x + num_y
+print(f"The greatest decrease in profits is {least_profit}")
 
-print(f"The greatest decrease in profit is {sum}")
+
+
 
 # Txt File
 
