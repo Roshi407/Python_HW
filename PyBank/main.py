@@ -64,15 +64,6 @@ print(f"The greatest decrease in profits is {least_profit}")
 
 
 
-# Txt File
-
-with open("filepath", 'w') as f:
-    f.write("readme")
-
-
-
-
-
 
 
 
